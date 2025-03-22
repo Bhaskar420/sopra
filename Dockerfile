@@ -7,6 +7,6 @@ FROM redis:latest
 # Expose the Redis port
 EXPOSE 6379
 
-# Command to run Redis server; you can customize it if you use a config file
+# Command to run Redis server
 CMD ["redis-server"]  # If using a custom config file, use: CMD ["redis-server", "/usr/local/etc/redis/redis.conf"]
 
